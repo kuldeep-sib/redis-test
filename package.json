@@ -1,0 +1,26 @@
+{
+  "name": "redis-test",
+  "version": "1.0.0",
+  "description": "benchmark",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuldeep-sib/redis-test.git"
+  },
+  "keywords": [
+    "redis"
+  ],
+  "author": "kuldeep-sib",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kuldeep-sib/redis-test/issues"
+  },
+  "homepage": "https://github.com/kuldeep-sib/redis-test#readme",
+  "dependencies": {
+    "ioredis": "^4.27.6",
+    "uuid": "^8.3.2"
+  }
+}

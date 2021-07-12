@@ -16,7 +16,7 @@ const REDIS_PASSWORD = process.env.REDIS_PASSWORD;
 if (REDIS_PASSWORD) {
   config.redisQueuesConf.password = REDIS_PASSWORD;
 }
-const redis = new ioredis();
+const redis = new ioredis(config.redisQueuesConf);
 
 const rpoplpushlatency = [];
 const lpushLatency = [];
